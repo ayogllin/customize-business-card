@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="style.css">
+
+    <title>Customized Buiness Card</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Hello! </h1>
+        <p> Custimize Your Buiness Card Now!</p>
+      </div>
+
+      <form>
+        <!-- Name -->
+        <div class="form-group">
+          <label for="nameTitle">Full Name</label>
+          <input type="text" class="form-control" id="nameField" placeholder="Your full name" required>
+        </div>
+        <!-- Photo -->
+        <div class="form-group">
+          <label for="photoLink">Photo Link</label>
+          <input type="url" class="form-control" id="photoLink" placeholder="Link to your photo">
+        </div>
+        <!-- Introduction -->
+        <div class="form-group">
+          <label for="intro">Introduction</label>
+          <textarea class="form-control" id="introTextarea" rows="3" placeholder="Introduce yourself in 200 words" required></textarea>
+        </div>
+        <!-- Theme -->
+        <div class="themeSelect">
+          <label for="chooseTheme">Choose the theme :</label>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio"  name="theme" id="lightTheme" value="light" required>
+            <label class="form-check-label" for="lightTheme">Light Theme</label>
+          </div>
+          <div class="form-check form-check-inline form-group">
+            <input class="form-check-input" type="radio"  name="theme" id="darkTheme" value="dark">
+            <label class="form-check-label" for="darkTheme">Dark Theme</label>
+          </div>
+        </div>
+        <!-- Summit Button -->
+        <div class= "submitButton">
+          <input class="btn btn-primary " type="submit" value="Submit">
+        </div>
+      </form>
+
+      <div id="outputField" class= "clearfix">
+      <!-- output -->
+      </div>
+
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+      </body>
+      <script type="text/javascript" src="index.js"></script>
+    </html>
